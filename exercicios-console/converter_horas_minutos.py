@@ -1,0 +1,5 @@
+h = int (input ("Horas: "))
+m = int (input ("Minutos: "))
+resultado,resto = divmod(h,(1/60))
+total = (resultado+m)
+print ("A quantidade total de minutos é",total)
